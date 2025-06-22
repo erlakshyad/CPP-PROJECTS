@@ -1,0 +1,84 @@
+The front page.
+    Login as
+        1.Admin
+        2.Employee
+    Sign up
+        3.Employee
+Enter an option : 
+
+---------------------------------------------------------------------------------------------------------------------------------
+
+Login :
+
+UserName :
+
+Password : 
+
+-------------------------------Login Successful------------------------------------------
+
+
+Employee :
+
+MENU:
+    1. Register New Employee
+    2. Delete a record of an employee
+    3. Display all employee record
+    4. Attendance
+    5. Search a record of an employee
+    6. Modify record of an employee
+    7. Exit the program
+    8. Back
+
+Enter an option : 
+
+------------------------------------Attendance--------------------------------------------------
+1.Take Attendance
+2.Search for attendance
+3.Modify attendance
+4.Display whole attendance
+5.Display attendance of an employee
+
+----------------------------------------Take Attendance----------------------------------------------------
+sr no.  |User ID    |UserName   |Presentie
+--------+-----------+-----------+----------
+1.      |24CM001    |Aage       |p
+1.      |24CM001    |Aage       |p
+1.      |24CM001    |Aage       |p
+1.      |24CM001    |Aage       |p
+1.      |24CM001    |Aage       |p
+1.      |24CM001    |Aage       |p
+---------------------------------------------------------------------------------------------
+70  Abra_Cadabra        24CM070     COMPUTER_ENGINEER   IT  9600345628  
+XX\tOOOOOOOOOOOOOOOOOOO OOOOOOO\t\t xxxxxxxxxxxxxxxxx\t xx\txxxxxxxxxxx\t
+
+NAME\tid\t\trole\tsector\tmono\temail\n ----> 1 2 1 1 1 1 
+---------------------------------------------------------------------------------------------
+REMAINING PART :
+
+3.Modify attendance
++ 2. Delete a record of an employee
++ 6. Modify record of an employe
++ color
++ structured
+
+---------------------------------------------------------------------------------------------
+
+ReplaceWord(){
+    input originalFile;
+    copy in thatString 
+    + 
+    find(oldword);
+    % size_t pos;
+    % size_t newWordLen = newWord.length();
+    Tod thatString line by line
+    thev newword in the pos of the oldword;
+    Jod thatString
+
+    output tempfile;
+    lihi in tempfile ---> thatString
+
+    delete tempfile;
+    rename temfile ---> originalFile
+    
+
+}
