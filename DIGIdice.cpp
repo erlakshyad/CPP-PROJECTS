@@ -87,5 +87,6 @@ int main() {
     srand(time(0));
     draw(1);
     logic();
+
     return 0;
 }
