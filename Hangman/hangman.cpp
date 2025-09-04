@@ -1,19 +1,38 @@
 #include <iostream>
-#include "hangman"
+#include <ctime>
+#include <cstdlib>
+#include <windows.h>
+
+
+
 
 using namespace std;
 
 class Hangman
 {
     int level;
+    string s1[12] = {
+        "JANUARY",
+        "FEBRUARY",
+        "MARCH",
+        "APRIL",
+        "MAY",
+        "JUNE",
+        "JULY",
+        "AUGUST",
+        "SEPTEMBER",
+        "OCTOBER",
+        "NOVEMBER",
+        "DECEMBER"
+    }  ; 
 
 public:
     void menu();
     void hangman();
 
-    void lvl1();
-    void lvl2();
-    void lvl3();
+    void LVL1();
+    void LVL2();
+    void LVL3();
 };
 
 int main()
@@ -29,12 +48,12 @@ int main()
     std::cout << "\033[1;34m MAX 10 Letters\033[0m" << std::endl;
 
     Hangman h;
-    h.menu();
+    h.hangman();
     getchar();
     return 0;
 }
 
-void Hangman ::menu()
+void Hangman :: menu()
 {
     short int op = 1;
     do
@@ -65,11 +84,11 @@ void Hangman ::menu()
 
     switch(op)
     {
-        case 1: lvl1();
+        case 1: LVL1();
         break;
-        case 2: lvl2();
+        case 2: LVL2();
         break;
-        case 3: lvl3();
+        case 3: LVL3();
         break;
     }
 }
@@ -110,7 +129,15 @@ void Hangman ::hangman()
     cout << "\t\t\t\t+------------------------------------------------------------------------------------------------------------------------------+\n";
 }
 
-void lvl1()
+void Hangman :: LVL1()
+{
+    cout << s1[1];
+}
+void Hangman :: LVL2()
+{
+
+}
+void Hangman :: LVL3()
 {
 
 }
